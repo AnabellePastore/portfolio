@@ -1,3 +1,44 @@
-*{
+* {
+    background-color: #E7E2D5;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+.container-grid {
+    max-width: 1400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner{
+    background-image: url("img/png\ papelao\ 1.png");
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-position: 58% 16%;
+
+    position: relative;
+
+
+}
+
+.frase{
+    position: absolute;
+    margin-top: 250px;
+}
+
+.banner p{
+    font-family: Jomhuria;
+    font-size: 50px;
+
+   width: 550px;
+
+   margin-left: 250px;
+
+}
+
+.banner span{
+    font-family: Josefin Slab;
+    font-size: 60px;
 }
